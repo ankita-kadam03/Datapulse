@@ -85,8 +85,6 @@ datapulse/
 │   └── init.sql               # Star schema DDL + views
 ├── tests/
 │   └── test_transform.py      # Data quality tests
-├── logs/                      # ETL run logs
-├── dashboards/                # Power BI dashboard files
 ├── docker-compose.yml         # PostgreSQL + Airflow setup
 ├── requirements.txt
 └── README.md
@@ -103,8 +101,8 @@ datapulse/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/datapulse-retail-analytics.git
-cd datapulse-retail-analytics
+git clone https://github.com/ankita-kadam03/Datapulse.git
+cd Datapulse
 ```
 
 ### 2. Setup environment
@@ -151,24 +149,87 @@ Trigger the `datapulse_superstore_etl` DAG
 
 ---
 
-## Dashboard KPIs
+## Power BI Dashboard
 
-- 📈 Total Revenue & Profit
-- 📅 Monthly Sales Trend
-- 🏆 Top 10 Products by Sales
-- 🗺️ Region-wise Performance
-- 👥 Customer Segment Analysis
-- 📦 Category & Sub-category Breakdown
+The dashboard is built manually in **Power BI Desktop** by connecting directly to the PostgreSQL warehouse.
+
+### Step 1 — Connect Power BI to PostgreSQL
+
+1. Open **Power BI Desktop** (free download from [here](https://powerbi.microsoft.com/desktop))
+2. Click **Get Data** → search **PostgreSQL** → click **Connect**
+3. Enter connection details:
+   - Server: `localhost`
+   - Database: `datapulse_db`
+4. Enter credentials:
+   - Username: `datapulse`
+   - Password: `datapulse123`
+5. Select these tables and click **Load**:
+   - `sales_fact`
+   - `customer_dim`
+   - `product_dim`
+   - `date_dim`
+   - `v_sales_summary`
+
+### Step 2 — Create DAX Measures
+
+In the **sales_fact** table, create these measures one by one  
+(**Home → New Measure**):
+
+```dax
+Total Sales = SUM(sales_fact[total_amount])
+
+Total Profit = SUM(sales_fact[profit])
+
+Total Orders = DISTINCTCOUNT(sales_fact[order_id])
+
+Total Customers = DISTINCTCOUNT(sales_fact[customer_id])
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales]) * 100
+
+Avg Order Value = DIVIDE([Total Sales], [Total Orders])
+```
+
+### Step 3 — Build the Visuals
+
+| Visual | Type | Fields |
+|---|---|---|
+| Total Sales | Card | `[Total Sales]` |
+| Total Profit | Card | `[Total Profit]` |
+| Total Orders | Card | `[Total Orders]` |
+| Total Customers | Card | `[Total Customers]` |
+| Monthly Revenue Trend | Line Chart | Axis: `date_dim[month_name]` · Values: `[Total Sales]`, `[Total Profit]` |
+| Sales by Region | Bar Chart | Axis: `sales_fact[region]` · Values: `[Total Sales]` |
+| Sales by Category | Donut Chart | Legend: `product_dim[category]` · Values: `[Total Sales]` |
+| Top Products | Table | `product_dim[sub_category]`, `[Total Sales]`, `[Total Profit]` |
+
+### Step 4 — Add Slicers (Filters)
+
+Add 4 slicers on the right side of the canvas:
+
+- `date_dim[year]` → filter by Year
+- `sales_fact[region]` → filter by Region
+- `product_dim[category]` → filter by Category
+- `customer_dim[segment]` → filter by Segment
+
+### Step 5 — Save
+
+Save the file as `dashboards/DataPulse.pbix` inside the project folder.
 
 ---
 
-## Resume Line
+## Dashboard KPIs
 
-> Built **DataPulse**, a production-ready retail ETL and analytics platform using Python, PostgreSQL, Apache Airflow, and Docker. Automated daily data pipelines processing 9,994 records with star schema modeling and Power BI dashboards showing $2.3M in retail sales insights.
+- 💰 Total Revenue & Profit cards
+- 📈 Monthly Sales Trend (line chart)
+- 📊 Sales by Region (bar chart)
+- 🍩 Sales by Category (donut chart)
+- 🏆 Top Products by Sub-Category (table)
+- 🔽 Slicers: Year / Region / Category / Segment
 
 ---
 
 ## Author
 
-**Your Name**  
-[LinkedIn](#) | [GitHub](#)
+**Ankita Kadam**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankita--kadam03-blue?logo=linkedin)](https://www.linkedin.com/in/ankita-kadam03/)
+[![GitHub](https://img.shields.io/badge/GitHub-ankita--kadam03-black?logo=github)](https://github.com/ankita-kadam03)
