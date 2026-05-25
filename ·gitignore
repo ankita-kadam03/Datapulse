@@ -1,0 +1,51 @@
+# ── Secrets ────────────────────────────────────────────
+.env
+*.env
+
+# ── Data files (too large / sensitive) ─────────────────
+data/superstore.csv
+data/Superstore.csv
+data/extracted/
+data/*.csv
+data/*.xlsx
+
+# ── Python cache ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── Logs ────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Docker volumes ──────────────────────────────────────
+postgres_data/
+
+# ── OS files ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ─────────────────────────────────────────────
+.vscode/
+
+# ── Jupyter ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Git keep files (optional) ───────────────────────────
+!logs/.gitkeep
+!data/.gitkeep
+!dashboards/.gitkeep
