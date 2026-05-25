@@ -1,0 +1,613 @@
+[2026-05-25T06:36:19.230+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:19.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:36:19.234+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:19.304+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:19.709+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.708+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:datapulse_superstore_etl
+[2026-05-25T06:36:19.726+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.725+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:datapulse_superstore_etl
+[2026-05-25T06:36:19.747+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.746+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:datapulse_superstore_etl
+[2026-05-25T06:36:19.748+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.747+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:36:19.766+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.766+0000] {dag.py:3058} INFO - Creating ORM DAG for datapulse_superstore_etl
+[2026-05-25T06:36:19.783+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:19.783+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:36:19.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.597 seconds
+[2026-05-25T06:36:50.117+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:50.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:36:50.122+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:50.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:50.187+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:36:50.237+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:50.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:36:50.295+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:36:50.294+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:36:50.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.244 seconds
+[2026-05-25T06:37:20.577+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:20.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:37:20.580+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:20.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:20.609+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:20.629+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:20.629+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:37:20.661+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:20.661+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:37:20.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.116 seconds
+[2026-05-25T06:37:50.797+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:50.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:37:50.802+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:50.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:50.844+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:37:50.871+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:50.870+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:37:50.914+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:37:50.914+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:37:50.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.158 seconds
+[2026-05-25T06:38:21.174+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:21.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:38:21.177+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:21.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:21.207+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:21.227+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:21.227+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:38:21.258+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:21.258+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:38:21.288+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.118 seconds
+[2026-05-25T06:38:51.432+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:51.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:38:51.435+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:51.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:51.468+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:38:51.498+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:51.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:38:51.535+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:38:51.535+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:38:51.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.143 seconds
+[2026-05-25T06:39:21.857+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:21.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:39:21.863+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:21.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:21.921+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:21.959+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:21.959+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:39:22.016+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:22.016+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:39:22.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.209 seconds
+[2026-05-25T06:39:52.299+0000] {processor.py:161} INFO - Started process (PID=202) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:52.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:39:52.302+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:52.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:52.331+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:39:52.351+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:52.351+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:39:52.385+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:39:52.384+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:39:52.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.117 seconds
+[2026-05-25T06:40:22.504+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:22.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:40:22.506+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:22.506+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:22.535+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:22.556+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:22.555+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:40:22.586+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:22.586+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:40:22.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.114 seconds
+[2026-05-25T06:40:52.862+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:52.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:40:52.864+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:52.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:52.894+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:40:52.914+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:52.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:40:52.947+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:40:52.946+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:40:52.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.115 seconds
+[2026-05-25T06:41:23.142+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:23.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:41:23.150+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:23.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:23.249+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:23.304+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:23.304+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:41:23.391+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:23.390+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:41:23.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.322 seconds
+[2026-05-25T06:41:53.695+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:53.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:41:53.698+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:53.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:53.727+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:41:53.766+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:53.765+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:41:53.834+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:41:53.833+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:41:53.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.183 seconds
+[2026-05-25T06:42:24.110+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:24.111+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:42:24.113+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:24.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:24.150+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:24.175+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:24.175+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:42:24.214+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:24.214+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:42:24.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.150 seconds
+[2026-05-25T06:42:54.321+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:54.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:42:54.324+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:54.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:54.356+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:42:54.379+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:54.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:42:54.419+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:42:54.418+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-24 00:00:00+00:00, run_after=2026-05-25 00:00:00+00:00
+[2026-05-25T06:42:54.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.136 seconds
+[2026-05-25T06:43:24.708+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:24.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:43:24.712+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:24.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:24.741+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:24.762+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:24.762+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:43:24.793+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:24.793+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:43:24.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.118 seconds
+[2026-05-25T06:43:54.915+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:54.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:43:54.918+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:54.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:54.949+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:43:54.971+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:54.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:43:55.004+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:43:55.003+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:43:55.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.127 seconds
+[2026-05-25T06:44:25.300+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:25.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:44:25.304+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:25.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:25.341+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:25.362+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:25.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:44:25.397+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:25.397+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:44:25.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.132 seconds
+[2026-05-25T06:44:55.535+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:55.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:44:55.539+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:55.538+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:55.602+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:44:55.628+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:55.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:44:55.663+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:44:55.662+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:44:55.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.176 seconds
+[2026-05-25T06:45:25.916+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:25.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:45:25.919+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:25.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:25.955+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:25.981+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:25.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:45:26.019+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:26.019+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:45:26.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.143 seconds
+[2026-05-25T06:45:56.126+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:56.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:45:56.130+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:56.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:56.165+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:45:56.187+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:56.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:45:56.218+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:45:56.218+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:45:56.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.136 seconds
+[2026-05-25T06:46:26.514+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:26.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:46:26.517+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:26.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:26.555+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:26.580+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:26.579+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:46:26.624+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:26.623+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:46:26.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.155 seconds
+[2026-05-25T06:46:56.894+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:56.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:46:56.896+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:56.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:56.925+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:46:56.945+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:56.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:46:56.975+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:46:56.975+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:46:57.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.126 seconds
+[2026-05-25T06:47:27.121+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:27.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:47:27.124+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:27.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:27.156+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:27.177+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:27.177+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:47:27.211+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:27.210+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:47:27.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.133 seconds
+[2026-05-25T06:47:57.522+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:57.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:47:57.526+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:57.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:57.556+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:47:57.581+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:57.581+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:47:57.622+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:47:57.621+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:47:57.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.146 seconds
+[2026-05-25T06:48:27.757+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:27.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:48:27.760+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:27.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:27.791+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:27.813+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:27.813+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:48:27.861+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:27.861+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:48:27.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.141 seconds
+[2026-05-25T06:48:58.141+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:58.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:48:58.145+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:58.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:58.190+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:48:58.214+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:58.214+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:48:58.249+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:48:58.249+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:48:58.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.146 seconds
+[2026-05-25T06:49:28.415+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:28.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:49:28.421+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:28.420+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:28.457+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:28.479+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:28.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:49:28.517+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:28.516+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:49:28.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.139 seconds
+[2026-05-25T06:49:58.738+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:58.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:49:58.741+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:58.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:58.774+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:49:58.797+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:58.797+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:49:58.830+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:49:58.830+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:49:58.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.128 seconds
+[2026-05-25T06:50:29.010+0000] {processor.py:161} INFO - Started process (PID=349) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:29.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:50:29.013+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:29.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:29.049+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:29.076+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:29.075+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:50:29.120+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:29.120+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:50:29.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.153 seconds
+[2026-05-25T06:50:57.304+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:57.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:50:57.307+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:57.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:57.355+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:50:57.381+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:57.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:50:57.415+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:50:57.415+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:50:57.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.154 seconds
+[2026-05-25T06:51:27.646+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:27.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:51:27.649+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:27.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:27.680+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:27.702+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:27.702+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:51:27.735+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:27.734+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:51:27.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.134 seconds
+[2026-05-25T06:51:57.982+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:57.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:51:57.987+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:57.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:58.054+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:51:58.095+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:58.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:51:58.163+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:51:58.162+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:51:58.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.250 seconds
+[2026-05-25T06:52:28.465+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:28.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:52:28.468+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:28.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:28.496+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:28.518+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:28.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:52:28.551+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:28.550+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:52:28.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.121 seconds
+[2026-05-25T06:52:58.739+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:58.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:52:58.744+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:58.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:58.782+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:52:58.806+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:58.806+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:52:58.843+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:52:58.843+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:52:58.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.141 seconds
+[2026-05-25T06:53:29.050+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:29.052+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:53:29.055+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:29.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:29.099+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:29.127+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:29.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:53:29.169+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:29.168+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:53:29.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.178 seconds
+[2026-05-25T06:53:59.352+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:59.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:53:59.355+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:59.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:59.382+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:53:59.404+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:59.404+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:53:59.437+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:53:59.437+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:53:59.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.126 seconds
+[2026-05-25T06:54:29.688+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:54:29.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:54:29.692+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:54:29.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:54:29.720+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:54:29.743+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:54:29.743+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:54:29.783+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:54:29.783+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:54:29.822+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.139 seconds
+[2026-05-25T06:55:00.000+0000] {processor.py:161} INFO - Started process (PID=598) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:00.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:55:00.015+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:00.015+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:00.086+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:00.123+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:00.123+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:55:00.192+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:00.191+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:55:00.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.248 seconds
+[2026-05-25T06:55:30.355+0000] {processor.py:161} INFO - Started process (PID=615) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:30.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:55:30.358+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:30.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:30.392+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:55:30.415+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:30.415+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:55:30.449+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:55:30.449+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:55:30.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.129 seconds
+[2026-05-25T06:56:00.588+0000] {processor.py:161} INFO - Started process (PID=620) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:00.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:56:00.592+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:00.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:00.645+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:00.681+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:00.680+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:56:00.737+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:00.736+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:56:00.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.189 seconds
+[2026-05-25T06:56:31.060+0000] {processor.py:161} INFO - Started process (PID=640) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:31.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:56:31.063+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:31.062+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:31.094+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:56:31.116+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:31.115+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:56:31.147+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:56:31.147+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:56:31.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.125 seconds
+[2026-05-25T06:57:01.289+0000] {processor.py:161} INFO - Started process (PID=669) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:01.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:57:01.293+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:01.292+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:01.338+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:01.363+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:01.363+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:57:01.409+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:01.409+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:57:01.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.161 seconds
+[2026-05-25T06:57:31.640+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:31.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:57:31.643+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:31.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:31.675+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:57:31.706+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:31.705+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:57:31.799+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:57:31.798+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:57:31.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.209 seconds
+[2026-05-25T06:58:02.025+0000] {processor.py:161} INFO - Started process (PID=707) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:02.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:58:02.030+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:02.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:02.102+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:02.135+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:02.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:58:02.196+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:02.196+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:58:02.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.235 seconds
+[2026-05-25T06:58:32.316+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:32.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:58:32.319+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:32.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:32.350+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:58:32.374+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:32.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:58:32.411+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:58:32.411+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:58:32.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.140 seconds
+[2026-05-25T06:59:02.725+0000] {processor.py:161} INFO - Started process (PID=765) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:02.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:59:02.728+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:02.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:02.767+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:02.792+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:02.791+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:59:02.829+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:02.828+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:59:02.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.154 seconds
+[2026-05-25T06:59:32.966+0000] {processor.py:161} INFO - Started process (PID=770) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:32.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T06:59:32.971+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:32.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:33.011+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T06:59:33.036+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:33.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T06:59:33.077+0000] {logging_mixin.py:188} INFO - [2026-05-25T06:59:33.077+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T06:59:33.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.157 seconds
+[2026-05-25T07:00:03.351+0000] {processor.py:161} INFO - Started process (PID=790) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:03.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:00:03.355+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:03.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:03.428+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:03.486+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:03.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:00:03.575+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:03.575+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:00:03.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.289 seconds
+[2026-05-25T07:00:33.916+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:33.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:00:33.922+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:33.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:33.973+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:00:34.013+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:34.012+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:00:34.076+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:00:34.076+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:00:34.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.229 seconds
+[2026-05-25T07:01:04.419+0000] {processor.py:161} INFO - Started process (PID=848) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:04.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:01:04.425+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:04.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:04.476+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:04.511+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:04.511+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:01:04.569+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:04.569+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:01:04.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.215 seconds
+[2026-05-25T07:01:34.915+0000] {processor.py:161} INFO - Started process (PID=853) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:34.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:01:34.920+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:34.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:34.966+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:01:34.993+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:34.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:01:35.032+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:01:35.032+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:01:35.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.152 seconds
+[2026-05-25T07:02:05.222+0000] {processor.py:161} INFO - Started process (PID=858) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:05.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:02:05.228+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:05.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:05.322+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:05.376+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:05.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:02:05.461+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:05.461+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:02:05.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.343 seconds
+[2026-05-25T07:02:35.765+0000] {processor.py:161} INFO - Started process (PID=863) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:35.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:02:35.768+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:35.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:35.801+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:02:35.826+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:35.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:02:35.864+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:02:35.864+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:02:35.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.135 seconds
+[2026-05-25T07:03:05.999+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:06.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:03:06.004+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:06.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:06.042+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:06.068+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:06.068+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:03:06.107+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:06.107+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:03:06.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.160 seconds
+[2026-05-25T07:03:36.376+0000] {processor.py:161} INFO - Started process (PID=873) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:36.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:03:36.379+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:36.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:36.423+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:03:36.454+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:36.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:03:36.504+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:03:36.504+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:03:36.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.189 seconds
+[2026-05-25T07:04:06.847+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:06.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:04:06.854+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:06.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:06.907+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:06.943+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:06.942+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:04:07.006+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:07.005+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:04:07.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.233 seconds
+[2026-05-25T07:04:37.300+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:37.302+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:04:37.303+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:37.303+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:37.334+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:04:37.356+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:37.355+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:04:37.388+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:04:37.388+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:04:37.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.124 seconds
+[2026-05-25T07:05:07.519+0000] {processor.py:161} INFO - Started process (PID=888) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:07.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:05:07.522+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:07.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:07.554+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:07.575+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:07.575+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:05:07.610+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:07.609+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:05:07.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.125 seconds
+[2026-05-25T07:05:37.818+0000] {processor.py:161} INFO - Started process (PID=893) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:37.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:05:37.821+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:37.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:37.861+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:05:37.883+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:37.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:05:37.923+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:05:37.922+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:05:37.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.139 seconds
+[2026-05-25T07:06:08.037+0000] {processor.py:161} INFO - Started process (PID=898) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:08.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:06:08.041+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:08.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:08.072+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:08.095+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:08.094+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:06:08.130+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:08.129+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:06:08.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.131 seconds
+[2026-05-25T07:06:38.402+0000] {processor.py:161} INFO - Started process (PID=903) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:38.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:06:38.404+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:38.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:38.435+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:06:38.456+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:38.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:06:38.488+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:06:38.487+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:06:38.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.132 seconds
+[2026-05-25T07:07:08.692+0000] {processor.py:161} INFO - Started process (PID=908) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:08.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:07:08.699+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:08.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:08.758+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:08.799+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:08.798+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:07:08.848+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:08.847+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:07:08.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.214 seconds
+[2026-05-25T07:07:39.009+0000] {processor.py:161} INFO - Started process (PID=913) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:39.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:07:39.013+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:39.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:39.050+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:07:39.078+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:39.077+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:07:39.129+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:07:39.129+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:07:39.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.163 seconds
+[2026-05-25T07:08:09.437+0000] {processor.py:161} INFO - Started process (PID=918) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:09.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:08:09.441+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:09.440+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:09.475+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:09.496+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:09.496+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:08:09.530+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:09.530+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:08:09.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.132 seconds
+[2026-05-25T07:08:39.693+0000] {processor.py:161} INFO - Started process (PID=923) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:39.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:08:39.699+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:39.698+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:39.745+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:08:39.778+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:39.778+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:08:39.838+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:08:39.837+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:08:39.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.198 seconds
+[2026-05-25T07:09:09.988+0000] {processor.py:161} INFO - Started process (PID=928) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:09.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:09:09.991+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:09.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:10.025+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:10.047+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:10.047+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:09:10.147+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:10.147+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:09:10.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.199 seconds
+[2026-05-25T07:09:40.351+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:40.353+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:09:40.354+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:40.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:40.404+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:09:40.430+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:40.430+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:09:40.476+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:09:40.475+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:09:40.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.169 seconds
+[2026-05-25T07:10:10.820+0000] {processor.py:161} INFO - Started process (PID=938) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:10.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:10:10.827+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:10.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:10.913+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:10.967+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:10.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:10:11.104+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:11.104+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:10:11.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.403 seconds
+[2026-05-25T07:10:41.663+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:41.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:10:41.675+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:41.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:41.752+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:10:41.791+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:41.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:10:41.869+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:10:41.868+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:10:41.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.271 seconds
+[2026-05-25T07:11:12.215+0000] {processor.py:161} INFO - Started process (PID=948) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:12.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:11:12.219+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:12.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:12.273+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:12.301+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:12.301+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:11:12.343+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:12.342+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:11:12.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.171 seconds
+[2026-05-25T07:11:42.495+0000] {processor.py:161} INFO - Started process (PID=953) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:42.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:11:42.499+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:42.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:42.543+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:11:42.570+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:42.570+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:11:42.619+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:11:42.619+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:11:42.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.168 seconds
+[2026-05-25T07:12:12.843+0000] {processor.py:161} INFO - Started process (PID=958) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:12.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:12:12.849+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:12.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:12.887+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:12.909+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:12.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:12:12.973+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:12.973+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:12:13.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.170 seconds
+[2026-05-25T07:12:43.097+0000] {processor.py:161} INFO - Started process (PID=963) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:43.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:12:43.099+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:43.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:43.128+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:12:43.151+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:43.151+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:12:43.185+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:12:43.184+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:12:43.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.130 seconds
+[2026-05-25T07:13:13.446+0000] {processor.py:161} INFO - Started process (PID=968) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:13.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:13:13.448+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:13.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:13.474+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:13.499+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:13.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:13:13.531+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:13.531+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:13:13.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.117 seconds
+[2026-05-25T07:13:43.679+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:43.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:13:43.682+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:43.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:43.718+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:13:43.740+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:43.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:13:43.773+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:13:43.773+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:13:43.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.130 seconds
+[2026-05-25T07:14:13.982+0000] {processor.py:161} INFO - Started process (PID=978) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:13.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:14:13.986+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:13.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:14.035+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:14.067+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:14.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:14:14.121+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:14.121+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:14:14.154+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.180 seconds
+[2026-05-25T07:14:44.231+0000] {processor.py:161} INFO - Started process (PID=983) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:44.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:14:44.234+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:44.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:44.263+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:14:44.285+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:44.285+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:14:44.319+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:14:44.318+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:14:44.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.123 seconds
+[2026-05-25T07:15:14.600+0000] {processor.py:161} INFO - Started process (PID=988) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:14.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:15:14.603+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:14.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:14.645+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:14.672+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:14.672+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:15:14.714+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:14.714+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:15:14.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.163 seconds
+[2026-05-25T07:15:44.984+0000] {processor.py:161} INFO - Started process (PID=993) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:44.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:15:44.987+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:44.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:45.018+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:15:45.039+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:45.039+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:15:45.071+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:15:45.071+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:15:45.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.131 seconds
+[2026-05-25T07:16:15.181+0000] {processor.py:161} INFO - Started process (PID=998) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:15.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:16:15.184+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:15.184+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:15.216+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:15.238+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:15.238+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:16:15.271+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:15.271+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:16:15.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.126 seconds
+[2026-05-25T07:16:45.602+0000] {processor.py:161} INFO - Started process (PID=1003) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:45.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:16:45.604+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:45.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:45.638+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:16:45.662+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:45.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:16:45.698+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:16:45.697+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:16:45.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.134 seconds
+[2026-05-25T07:17:15.818+0000] {processor.py:161} INFO - Started process (PID=1008) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:15.819+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:17:15.821+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:15.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:15.859+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:15.884+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:15.883+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:17:15.989+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:15.989+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:17:16.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.213 seconds
+[2026-05-25T07:17:46.176+0000] {processor.py:161} INFO - Started process (PID=1013) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:46.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:17:46.180+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:46.179+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:46.209+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:17:46.242+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:46.242+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:17:46.274+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:17:46.274+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:17:46.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.136 seconds
+[2026-05-25T07:18:16.467+0000] {processor.py:161} INFO - Started process (PID=1018) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:16.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:18:16.471+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:16.470+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:16.514+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:16.538+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:16.538+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:18:16.576+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:16.576+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:18:16.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.145 seconds
+[2026-05-25T07:18:46.722+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:46.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:18:46.726+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:46.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:46.763+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:18:46.796+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:46.795+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:18:46.848+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:18:46.848+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:18:46.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.183 seconds
+[2026-05-25T07:19:17.058+0000] {processor.py:161} INFO - Started process (PID=1028) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:17.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:19:17.062+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:17.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:17.103+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:17.132+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:17.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:19:17.178+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:17.178+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:19:17.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.165 seconds
+[2026-05-25T07:19:47.425+0000] {processor.py:161} INFO - Started process (PID=1033) to work on /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:47.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/datapulse_dag.py for tasks to queue
+[2026-05-25T07:19:47.428+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:47.428+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:47.461+0000] {processor.py:840} INFO - DAG(s) 'datapulse_superstore_etl' retrieved from /opt/airflow/dags/datapulse_dag.py
+[2026-05-25T07:19:47.489+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:47.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-05-25T07:19:47.549+0000] {logging_mixin.py:188} INFO - [2026-05-25T07:19:47.548+0000] {dag.py:3823} INFO - Setting next_dagrun for datapulse_superstore_etl to 2026-05-25 00:00:00+00:00, run_after=2026-05-26 00:00:00+00:00
+[2026-05-25T07:19:47.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/datapulse_dag.py took 0.168 seconds

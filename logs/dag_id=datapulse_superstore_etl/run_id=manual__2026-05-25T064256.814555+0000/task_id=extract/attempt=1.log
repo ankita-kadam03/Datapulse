@@ -1,0 +1,22 @@
+[2026-05-25T06:42:58.464+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapulse_superstore_etl.extract manual__2026-05-25T06:42:56.814555+00:00 [queued]>
+[2026-05-25T06:42:58.484+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapulse_superstore_etl.extract manual__2026-05-25T06:42:56.814555+00:00 [queued]>
+[2026-05-25T06:42:58.487+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 4
+[2026-05-25T06:42:58.516+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): extract> on 2026-05-25 06:42:56.814555+00:00
+[2026-05-25T06:42:58.530+0000] {standard_task_runner.py:60} INFO - Started process 240 to run task
+[2026-05-25T06:42:58.538+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapulse_superstore_etl', 'extract', 'manual__2026-05-25T06:42:56.814555+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/datapulse_dag.py', '--cfg-path', '/tmp/tmpsavyaf4f']
+[2026-05-25T06:42:58.547+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask extract
+[2026-05-25T06:42:58.689+0000] {task_command.py:423} INFO - Running <TaskInstance: datapulse_superstore_etl.extract manual__2026-05-25T06:42:56.814555+00:00 [running]> on host 0e7463142bef
+[2026-05-25T06:42:58.891+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datapulse' AIRFLOW_CTX_DAG_ID='datapulse_superstore_etl' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T06:42:56.814555+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-25T06:42:56.814555+00:00'
+[2026-05-25T06:42:58.894+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-25T06:42:58.899+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow && python extraction/extract.py']
+[2026-05-25T06:42:58.922+0000] {subprocess.py:86} INFO - Output:
+[2026-05-25T06:43:01.419+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,418 INFO Reading data/superstore.csv ...
+[2026-05-25T06:43:01.513+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,513 INFO Loaded 9994 raw rows, 21 columns
+[2026-05-25T06:43:01.535+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,535 INFO customer_dim: 793 unique customers
+[2026-05-25T06:43:01.557+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,557 INFO product_dim: 1862 unique products
+[2026-05-25T06:43:01.683+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,682 INFO sales_raw: 9994 rows extracted
+[2026-05-25T06:43:01.684+0000] {subprocess.py:93} INFO - 2026-05-25 06:43:01,683 INFO Extraction complete!
+[2026-05-25T06:43:01.807+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-25T06:43:01.864+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=datapulse_superstore_etl, task_id=extract, execution_date=20260525T064256, start_date=20260525T064258, end_date=20260525T064301
+[2026-05-25T06:43:01.911+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-25T06:43:01.955+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

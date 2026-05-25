@@ -1,0 +1,34 @@
+[2026-05-25T06:52:48.354+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapulse_superstore_etl.transform manual__2026-05-25T06:51:56.727752+00:00 [queued]>
+[2026-05-25T06:52:48.368+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapulse_superstore_etl.transform manual__2026-05-25T06:51:56.727752+00:00 [queued]>
+[2026-05-25T06:52:48.369+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 4
+[2026-05-25T06:52:48.393+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): transform> on 2026-05-25 06:51:56.727752+00:00
+[2026-05-25T06:52:48.400+0000] {standard_task_runner.py:60} INFO - Started process 483 to run task
+[2026-05-25T06:52:48.405+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapulse_superstore_etl', 'transform', 'manual__2026-05-25T06:51:56.727752+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/datapulse_dag.py', '--cfg-path', '/tmp/tmp4pnexw5n']
+[2026-05-25T06:52:48.408+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask transform
+[2026-05-25T06:52:48.502+0000] {task_command.py:423} INFO - Running <TaskInstance: datapulse_superstore_etl.transform manual__2026-05-25T06:51:56.727752+00:00 [running]> on host 0e7463142bef
+[2026-05-25T06:52:48.633+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datapulse' AIRFLOW_CTX_DAG_ID='datapulse_superstore_etl' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T06:51:56.727752+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-25T06:51:56.727752+00:00'
+[2026-05-25T06:52:48.635+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-25T06:52:48.637+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow && python transformation/transform.py']
+[2026-05-25T06:52:48.652+0000] {subprocess.py:86} INFO - Output:
+[2026-05-25T06:52:49.467+0000] {subprocess.py:93} INFO - 2026-05-25 06:52:49,467 INFO Sales transform: 9994 in -> 9986 clean records out
+[2026-05-25T06:52:49.501+0000] {subprocess.py:93} INFO - 2026-05-25 06:52:49,500 INFO date_dim: 1237 unique dates
+[2026-05-25T06:52:49.509+0000] {subprocess.py:93} INFO - 
+[2026-05-25T06:52:49.510+0000] {subprocess.py:93} INFO - Sales sample:
+[2026-05-25T06:52:49.511+0000] {subprocess.py:93} INFO -          order_id customer_id       product_id     sales    profit
+[2026-05-25T06:52:49.512+0000] {subprocess.py:93} INFO - 0  CA-2016-152156    CG-12520  FUR-BO-10001798  261.9600   41.9136
+[2026-05-25T06:52:49.512+0000] {subprocess.py:93} INFO - 1  CA-2016-152156    CG-12520  FUR-CH-10000454  731.9400  219.5820
+[2026-05-25T06:52:49.513+0000] {subprocess.py:93} INFO - 2  CA-2016-138688    DV-13045  OFF-LA-10000240   14.6200    6.8714
+[2026-05-25T06:52:49.514+0000] {subprocess.py:93} INFO - 3  US-2015-108966    SO-20335  FUR-TA-10000577  957.5775 -383.0310
+[2026-05-25T06:52:49.515+0000] {subprocess.py:93} INFO - 4  US-2015-108966    SO-20335  OFF-ST-10000760   22.3680    2.5164
+[2026-05-25T06:52:49.516+0000] {subprocess.py:93} INFO - 
+[2026-05-25T06:52:49.517+0000] {subprocess.py:93} INFO - Date dim sample:
+[2026-05-25T06:52:49.518+0000] {subprocess.py:93} INFO -     full_date  day  month month_name  quarter  year   weekday  is_weekend
+[2026-05-25T06:52:49.518+0000] {subprocess.py:93} INFO - 0  2014-01-03    3      1    January        1  2014    Friday       False
+[2026-05-25T06:52:49.519+0000] {subprocess.py:93} INFO - 1  2014-01-04    4      1    January        1  2014  Saturday        True
+[2026-05-25T06:52:49.520+0000] {subprocess.py:93} INFO - 2  2014-01-05    5      1    January        1  2014    Sunday        True
+[2026-05-25T06:52:49.521+0000] {subprocess.py:93} INFO - 3  2014-01-06    6      1    January        1  2014    Monday       False
+[2026-05-25T06:52:49.522+0000] {subprocess.py:93} INFO - 4  2014-01-07    7      1    January        1  2014   Tuesday       False
+[2026-05-25T06:52:49.596+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-25T06:52:49.647+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=datapulse_superstore_etl, task_id=transform, execution_date=20260525T065156, start_date=20260525T065248, end_date=20260525T065249
+[2026-05-25T06:52:49.704+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-25T06:52:49.750+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

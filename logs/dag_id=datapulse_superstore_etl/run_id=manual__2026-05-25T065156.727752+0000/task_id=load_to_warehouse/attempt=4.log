@@ -1,0 +1,37 @@
+[2026-05-25T06:56:54.477+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapulse_superstore_etl.load_to_warehouse manual__2026-05-25T06:51:56.727752+00:00 [queued]>
+[2026-05-25T06:56:54.491+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapulse_superstore_etl.load_to_warehouse manual__2026-05-25T06:51:56.727752+00:00 [queued]>
+[2026-05-25T06:56:54.492+0000] {taskinstance.py:2170} INFO - Starting attempt 4 of 4
+[2026-05-25T06:56:54.513+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): load_to_warehouse> on 2026-05-25 06:51:56.727752+00:00
+[2026-05-25T06:56:54.519+0000] {standard_task_runner.py:60} INFO - Started process 658 to run task
+[2026-05-25T06:56:54.524+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapulse_superstore_etl', 'load_to_warehouse', 'manual__2026-05-25T06:51:56.727752+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/datapulse_dag.py', '--cfg-path', '/tmp/tmp92gke016']
+[2026-05-25T06:56:54.527+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask load_to_warehouse
+[2026-05-25T06:56:54.616+0000] {task_command.py:423} INFO - Running <TaskInstance: datapulse_superstore_etl.load_to_warehouse manual__2026-05-25T06:51:56.727752+00:00 [running]> on host 0e7463142bef
+[2026-05-25T06:56:54.745+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datapulse' AIRFLOW_CTX_DAG_ID='datapulse_superstore_etl' AIRFLOW_CTX_TASK_ID='load_to_warehouse' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T06:51:56.727752+00:00' AIRFLOW_CTX_TRY_NUMBER='4' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-25T06:51:56.727752+00:00'
+[2026-05-25T06:56:54.746+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-25T06:56:54.748+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow && python loading/load.py']
+[2026-05-25T06:56:54.765+0000] {subprocess.py:86} INFO - Output:
+[2026-05-25T06:56:55.714+0000] {subprocess.py:93} INFO - 2026-05-25 06:56:55,714 INFO Connecting to: datapulse_postgres:5432
+[2026-05-25T06:56:55.836+0000] {subprocess.py:93} INFO - loading/load.py:42: RemovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+[2026-05-25T06:56:55.836+0000] {subprocess.py:93} INFO -   conn.execute(text(
+[2026-05-25T06:56:55.837+0000] {subprocess.py:93} INFO - 2026-05-25 06:56:55,835 WARNING Could not write etl_log: 'Connection' object has no attribute 'commit'
+[2026-05-25T06:56:55.838+0000] {subprocess.py:93} INFO - 2026-05-25 06:56:55,835 ERROR ETL failed: 'Connection' object has no attribute 'commit'
+[2026-05-25T06:56:55.848+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-05-25T06:56:55.849+0000] {subprocess.py:93} INFO -   File "loading/load.py", line 112, in <module>
+[2026-05-25T06:56:55.850+0000] {subprocess.py:93} INFO -     run()
+[2026-05-25T06:56:55.850+0000] {subprocess.py:93} INFO -   File "loading/load.py", line 97, in run
+[2026-05-25T06:56:55.851+0000] {subprocess.py:93} INFO -     truncate_tables(engine)
+[2026-05-25T06:56:55.851+0000] {subprocess.py:93} INFO -   File "loading/load.py", line 45, in truncate_tables
+[2026-05-25T06:56:55.852+0000] {subprocess.py:93} INFO -     conn.commit()
+[2026-05-25T06:56:55.853+0000] {subprocess.py:93} INFO - AttributeError: 'Connection' object has no attribute 'commit'
+[2026-05-25T06:56:55.971+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-05-25T06:56:55.991+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-05-25T06:56:55.996+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=datapulse_superstore_etl, task_id=load_to_warehouse, execution_date=20260525T065156, start_date=20260525T065654, end_date=20260525T065655
+[2026-05-25T06:56:56.020+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 29 for task load_to_warehouse (Bash command failed. The command returned a non-zero exit code 1.; 658)
+[2026-05-25T06:56:56.063+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-05-25T06:56:56.101+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

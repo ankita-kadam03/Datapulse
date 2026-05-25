@@ -1,0 +1,73 @@
+version: '3.8'
+
+x-airflow-common: &airflow-common
+  image: apache/airflow:2.8.1
+  environment:
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@datapulse_postgres:5432/${POSTGRES_DB}
+    AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__WEBSERVER__SECRET_KEY: datapulse_secret
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./extraction:/opt/airflow/extraction
+    - ./transformation:/opt/airflow/transformation
+    - ./loading:/opt/airflow/loading
+    - ./data:/opt/airflow/data
+  depends_on:
+    datapulse_postgres:
+      condition: service_healthy
+  networks:
+    - datapulse_net
+
+services:
+  datapulse_postgres:
+    image: postgres:15
+    container_name: datapulse_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "${POSTGRES_USER}"]
+      interval: 5s
+      retries: 5
+    networks:
+      - datapulse_net
+
+  airflow-init:
+    <<: *airflow-common
+    container_name: datapulse_airflow_init
+    command: >
+      bash -c "airflow db init &&
+               airflow users create --username admin --password admin
+               --firstname DataPulse --lastname Admin
+               --role Admin --email admin@datapulse.com"
+    restart: on-failure
+
+  datapulse_webserver:
+    <<: *airflow-common
+    container_name: datapulse_webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    restart: always
+
+  datapulse_scheduler:
+    <<: *airflow-common
+    container_name: datapulse_scheduler
+    command: scheduler
+    restart: always
+
+volumes:
+  postgres_data:
+
+networks:
+  datapulse_net:
+    driver: bridge

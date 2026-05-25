@@ -1,0 +1,17 @@
+[2026-05-25T07:00:38.736+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: datapulse_superstore_etl.validate_data manual__2026-05-25T07:00:26.987045+00:00 [queued]>
+[2026-05-25T07:00:38.753+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: datapulse_superstore_etl.validate_data manual__2026-05-25T07:00:26.987045+00:00 [queued]>
+[2026-05-25T07:00:38.755+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-05-25T07:00:38.778+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): validate_data> on 2026-05-25 07:00:26.987045+00:00
+[2026-05-25T07:00:38.787+0000] {standard_task_runner.py:60} INFO - Started process 837 to run task
+[2026-05-25T07:00:38.792+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'datapulse_superstore_etl', 'validate_data', 'manual__2026-05-25T07:00:26.987045+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/datapulse_dag.py', '--cfg-path', '/tmp/tmpjffztpdr']
+[2026-05-25T07:00:38.795+0000] {standard_task_runner.py:88} INFO - Job 38: Subtask validate_data
+[2026-05-25T07:00:38.917+0000] {task_command.py:423} INFO - Running <TaskInstance: datapulse_superstore_etl.validate_data manual__2026-05-25T07:00:26.987045+00:00 [running]> on host 0e7463142bef
+[2026-05-25T07:00:39.091+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='datapulse' AIRFLOW_CTX_DAG_ID='datapulse_superstore_etl' AIRFLOW_CTX_TASK_ID='validate_data' AIRFLOW_CTX_EXECUTION_DATE='2026-05-25T07:00:26.987045+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-25T07:00:26.987045+00:00'
+[2026-05-25T07:00:39.094+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-05-25T07:00:39.096+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cd /opt/airflow && python -c "\nimport pandas as pd\ndf = pd.read_csv(\'data/extracted/sales_raw.csv\')\nassert df[\'order_id\'].notnull().all(), \'Null order IDs!\'\nassert (pd.to_numeric(df[\'sales\']) > 0).all(), \'Negative sales!\'\nprint(f\'All checks passed! {len(df)} records validated.\')\n"']
+[2026-05-25T07:00:39.112+0000] {subprocess.py:86} INFO - Output:
+[2026-05-25T07:00:40.140+0000] {subprocess.py:93} INFO - All checks passed! 9994 records validated.
+[2026-05-25T07:00:40.260+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-05-25T07:00:40.334+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=datapulse_superstore_etl, task_id=validate_data, execution_date=20260525T070026, start_date=20260525T070038, end_date=20260525T070040
+[2026-05-25T07:00:40.423+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-05-25T07:00:40.549+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
